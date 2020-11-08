@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Lato', sans-serif;
+    padding: 2rem;
+    color: #c42222;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+
+h1,h4,p 
+{
+    margin: 0.5rem 0;
+}
+
+h1 
+{
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h4
+{
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.icons a i 
+{
+    font-size: 1.5rem;
+    padding-right: 0.8rem;
+    cursor: pointer;
+}
+
+.icons a, .icons a:active, .icons a:visited, .icons a:hover
+{
+    color:  #c42222;
+}
+
+section 
+{
+    margin-top: 8rem;
+    flex-grow: 1;
+}
+
+.quote 
+{
+    font-style: italic;
+}
+
+.box  
+{
+    display: flex;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.title 
+{
+    padding-right: 4rem;
+    font-style: italic;
+}
+
+.contents-date span
+{
+    padding: 0.1rem;
+}
+
+footer 
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    section 
+    {
+        margin-top: 4rem;
+    }
+
+    .box {
+        margin: 2rem 0;
+    }
+
+}
