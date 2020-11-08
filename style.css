@@ -12,7 +12,7 @@ body
     font-family: 'Lato', sans-serif;
     padding: 2rem;
     color: #c42222;
-    height: 100vh; 
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     display: flex;

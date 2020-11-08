@@ -7,14 +7,16 @@ window.addEventListener('load', () => {
     let temperatureDescription = document.querySelector('.temperature-description');
     let locationCity = document.querySelector('.location-city');
     let degreeCity = document.querySelector('.degree');
+    let hour = document.querySelector('.hour');
 
     const today = new Date();
+    const hourDay = today.getHours() + ':' + today.getMinutes();
     const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
     year.textContent = today.getFullYear();
     mounth.textContent = months[today.getMonth()];
     day.textContent = today.getDate();
-
+    hour.textContent = hourDay;
     //Weather
     if(navigator.geolocation) {
         navigator.geolocation.getCurrentPosition (position => {
