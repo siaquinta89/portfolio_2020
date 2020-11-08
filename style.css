@@ -15,7 +15,6 @@ body
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
-    display: flex;
 }
 
 h1,h4,p 
@@ -78,9 +77,6 @@ section
 
 footer 
 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
     padding: 1em;
     text-align: center;
@@ -91,6 +87,7 @@ footer
     section 
     {
         margin-top: 4rem;
+        height: 9;
     }
 
     .box {
