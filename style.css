@@ -10,11 +10,22 @@
 body 
 {
     font-family: 'Lato', sans-serif;
-    padding: 2rem;
     color: #c42222;
     min-height: 100vh; 
     display: flex;
     flex-direction: column;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    min-height: 3.125rem;
+    padding: 2rem;
 }
 
 h1,h4,p 
@@ -50,6 +61,7 @@ section
 {
     margin-top: 8rem;
     flex-grow: 1;
+    padding: 2rem;
 }
 
 .quote 
@@ -79,9 +91,15 @@ footer
 {
     width: 100%;
     text-align: center;
+    min-height: 3.125rem;
+    margin-top: auto;
 }
 
 @media screen and (max-width: 600px) {
+
+    header {
+        min-height: 9.375rem ;
+    }
 
     section 
     {
