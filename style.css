@@ -24,7 +24,6 @@ body
 }
 
 header {
-    min-height: 3.125rem;
     padding: 2rem;
 }
 
@@ -59,7 +58,6 @@ h4
 
 section 
 {
-    margin-top: 8rem;
     flex-grow: 1;
     padding: 2rem;
 }
@@ -96,16 +94,6 @@ footer
 }
 
 @media screen and (max-width: 600px) {
-
-    header {
-        min-height: 9.375rem ;
-    }
-
-    section 
-    {
-        margin-top: 4rem;
-        height: 9;
-    }
 
     .box {
         margin: 2rem 0;
